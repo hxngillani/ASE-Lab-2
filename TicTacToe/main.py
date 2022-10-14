@@ -3,7 +3,7 @@ from board import Board
 from game import Game
 
 
-def main():
+def main() -> object:
     """Create the game's board and run its main loop."""
     game = Game()
     board = Board(game)
